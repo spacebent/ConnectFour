@@ -10,13 +10,13 @@
     </head>
     <body>
         <div id="navigation">
-            <span class="title">Connect Four JS -</span> <a href="../../">Go to index »</a>
+            <span class="title">ConnectFour</span> <a href="../../">Go to index »</a>
         </div>
         
         <div id="container">
-            <h1 class="header-text">Alpha-Beta Algorithm</h1>
+            <h1 class="header-text"><center>Connect Four</center></h1>
             <p class="text subheader-text">
-                Artificial Intelligence based on the Minimax- and α-β-Pruning principles (jQuery).
+                Click column to drop piece:
             </p>
 
             <div class="box-left">
@@ -27,13 +27,6 @@
 
             <div class="box-right">
                 <div id="options">
-                    <p class="header">Algorithm</p>
-                    <p>
-                        <select id="algorithm-select" autocomplete="off">
-                            <option value="minimax">Minimax</option>
-                            <option value="alphabeta" selected>Alpha-Beta</option>
-                        </select>
-                    </p>
                     <p class="header">Difficulty</p>
                     <p>
                         <select id="difficulty" autocomplete="off">
@@ -50,14 +43,16 @@
                     <p><button class="save" onclick="Game.restartGame();" type="submit">Restart game</button></p>
                 </div>
 
-                <div id="debug">
+                 <div id="debug">
                     <p><strong>AI debugging</strong></p>
                     <p>Generated with <span id="ai-iterations">?</span> iterations</p>
                     <p>Measured with <span id="ai-time">?</span></p>
                     <p><span id="ai-column">Column: ?</span></p>
                     <p><span id="ai-score">Score: ?</span></p>
                     <br/>
-                    <p>Status: <span id="status" class="status-running">running</span></p>
+                    <p>Status: <span id="status" class="status-running">running</span></p><br>
+                    <p>Open source <a href="https://opensource.org/licenses/MIT">MIT</a> License.<br></p>
+                    <p>Source Code available at <a href="https://github.com/believerman/ConnectFour">GitHub</a></p>
                 </div>
             </div>
         </div>
